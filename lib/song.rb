@@ -6,7 +6,8 @@ attr_accessor :name, :artist
   end
 
   def artist_name
-    return self.artist.name || nil
+    return self.artist.name if self.artist.name != nil
+    nil
   end
 
 end
