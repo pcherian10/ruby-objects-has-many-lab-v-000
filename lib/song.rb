@@ -6,7 +6,7 @@ attr_accessor :name, :artist
   end
 
   def artist_name
-    song.artist.name
+
   end
 
 end
