@@ -6,7 +6,7 @@ class Post
   end
 
   def author_name
-    if(self.author.name.class == to_s)
+    if(self.author.name.class == .to_s)
       self.author.name
     else
       nil
