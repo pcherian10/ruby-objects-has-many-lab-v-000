@@ -5,4 +5,6 @@ attr_accessor :name, :artist
     @name = name
   end
 
+  def artist_name
+  end
 end
