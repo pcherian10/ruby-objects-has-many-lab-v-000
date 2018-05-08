@@ -1,4 +1,5 @@
-class Post :title
+class Post
+  attr_accessor :title
 
 
 end
