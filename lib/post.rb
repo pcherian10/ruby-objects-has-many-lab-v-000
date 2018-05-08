@@ -6,7 +6,7 @@ class Post
   end
 
   def author_name
-    if(self.author.name.class == String)
+    if(self.author.name.class == nil)
       self.author.name
     else
       nil
