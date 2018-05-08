@@ -8,5 +8,5 @@ attr_accessor :name, :artist
   def artist_name
 
   end
-  
+
 end
